@@ -16,17 +16,39 @@ const getState = ({ getStore, getActions, setStore }) => {
 			contacts: [
 				{
 					id: 1,
-					name: "Ana García S.",
-					email: "ana@email.com",
-					phone: "5555-5555",
-					address: "Nosara, Guanacaste"
+					avatarURL:"https://iconic.collectionzz.com/products/the-notorious-b-i-g-life-after-death-25th-anniversary-brooklyn-gold-edition",
+					name: "Notorious",
+					surname:" Big King.",
+					email: "king@gmail.com",
+					phone: "+1 122 46 22 11",
+					address: "Gangsters Paradise and Hustlers,1"
 				},
 				{
 					id :2,
-					name: "Daniel Mendoza Q.",
+					avatarURL:"https://upload.wikimedia.org/wikipedia/commons/2/29/Miguel_de_Unamuno_Meurisse_1925.jpg",
+					name: "Miguel",
+					surname:" de Unamuno y Jugo",
 					email: "daniel@email.com",
-					phone: "6666-6666",
-					address: "Cahuita, Limón"
+					phone: "000 000 003",
+					address: "Av. Ni con Hunos ni con Hotros,sn"
+				},
+				{
+					id :3,
+					avatarURL:"https://media.licdn.com/dms/image/C4D03AQHfvoLy_Q0kUg/profile-displayphoto-shrink_800_800/0/1623748819801?e=1697068800&v=beta&t=4Uc55-dIYL45KpdMKptPUH7yp6YPZCt3pdlOv6TmHDg",
+					name: "Deucalino Muvuma",
+					surname:" Muvuma",
+					email: "muvuma@email.com",
+					phone: "61144423",
+					address: "Lost in React Context Street,1"
+				},
+				{
+					id :4,
+					avatarURL:"https://www.instagram.com/p/CjYreS7OsIp/?img_index=1",
+					name: "4Geeks",
+					surname:" Academy",
+					email: "4geeksacademy@4geeks.com",
+					phone: "91 234 51 22",
+					address: "Slapping Deucalino Street,1"
 				}
 			],
 
@@ -47,8 +69,8 @@ const getState = ({ getStore, getActions, setStore }) => {
 
 				// Check empty fields in input form when adding
 				checkFormFields: (newContact) =>{
-					const {name, email, phone, address} = newContact
-					if (name && email && phone && address) {
+					const { avatarURL, name,surname, email, phone, address} = newContact
+					if (avatarURL && name && surname && email && phone && address) {
 						getActions().addContact(newContact);
 					}
 				},
