@@ -1,5 +1,5 @@
 body{
-    background:#E4E4F2;
+    background:#9898eb;
 }
 
 /* Form Style*/
@@ -33,12 +33,6 @@ body{
     color: white;
 }
 
-.newContactButton{
-    width: 100%;
-    background: none;
-    border-color: white;
-    color: white;
-}
 
 label{
     color: white;

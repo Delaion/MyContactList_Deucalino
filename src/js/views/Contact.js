@@ -14,7 +14,7 @@ export const Contact = () => {
     <div className="container mt-5">
       <div>
         <Link to={"/add"}>
-        <button className="newContactButton btn mt-4">Add a New Contact</button>
+        <button type="button" class="btn btn-outline-success text-light"><i class="fa-solid fa-address-book">+ Add </i></button>
         </Link>
       </div>
       <div> <ContactCard/> </div>

@@ -16,7 +16,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 			contacts: [
 				{
 					id: 1,
-					avatarURL:"https://iconic.collectionzz.com/products/the-notorious-b-i-g-life-after-death-25th-anniversary-brooklyn-gold-edition",
+					avatarURL:"https://static.wikia.nocookie.net/rap/images/e/e5/Biggie_Smalls_Mural_Little_Haiti.jpg/revision/latest?cb=20190412211232&path-prefix=es",
 					name: "Notorious",
 					surname:" Big King.",
 					email: "king@gmail.com",
@@ -43,7 +43,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				},
 				{
 					id :4,
-					avatarURL:"https://www.instagram.com/p/CjYreS7OsIp/?img_index=1",
+					avatarURL:"",
 					name: "4Geeks",
 					surname:" Academy",
 					email: "4geeksacademy@4geeks.com",
